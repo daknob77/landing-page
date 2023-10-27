@@ -197,3 +197,19 @@ body {
     border-radius: 10px;
     padding: 2px 25px;
 }
+
+/*footer*/
+
+.footer {
+    display:flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    flex:auto;
+    height: 10vh;
+}
+
+.footer .text {
+    color: #f9faf8;  
+    font-size: large;
+}
