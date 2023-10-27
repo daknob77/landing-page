@@ -156,5 +156,44 @@ body {
     align-self: flex-end;
     font-weight: bolder;
     font-size: 24px;
+}
 
+/*call to action*/
+
+.action-container {
+    height: 50vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    border: none;
+    border-radius: 10px;
+
+
+    width:125vh;
+    height: 15vh;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action, .text .text-header, .text .text-content, .call-to-action button {
+    color:#F9FAF8;
+    background-color: #3882f6;
+}
+
+.text .text-header{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.call-to-action button {
+    font-size: 16px;
+    border:white solid;
+    border-radius: 10px;
+    padding: 2px 25px;
 }
