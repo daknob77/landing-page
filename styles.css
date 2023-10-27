@@ -91,7 +91,7 @@ body {
 
 .content-container {
     background-color: #f9faf8;
-    height: 75vh;
+    height: 50vh;
     margin:0;
 }
 
@@ -123,4 +123,38 @@ body {
     height: 200px;
     border:#3882f6 solid;
     border-radius: 10px;
+}
+
+/*quote*/
+
+.quote-container {
+    background-color: #e5e7eb;
+    height: 50vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width:100vh;
+}
+
+.qoute .qoute-content{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.qoute .qoute-author{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+
 }
